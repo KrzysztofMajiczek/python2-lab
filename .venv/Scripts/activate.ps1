@@ -58,8 +58,8 @@ deactivate -nondestructive
 $VIRTUAL_ENV = $BASE_DIR
 $env:VIRTUAL_ENV = $VIRTUAL_ENV
 
-if ("python2-lab" -ne "") {
-    $env:VIRTUAL_ENV_PROMPT = "python2-lab"
+if ("PythonII" -ne "") {
+    $env:VIRTUAL_ENV_PROMPT = "PythonII"
 }
 else {
     $env:VIRTUAL_ENV_PROMPT = $( Split-Path $env:VIRTUAL_ENV -Leaf )

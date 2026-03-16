@@ -79,7 +79,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV 'C:\Users\Student P1-105-07\python2-lab\.venv'
+set -gx VIRTUAL_ENV 'C:\Users\User_1\python2-lab\PythonII\.venv'
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (string sub -s 1 -l 1 $FISH_VERSION) -lt 3
@@ -91,8 +91,8 @@ set -gx PATH "$VIRTUAL_ENV"'/Scripts' $PATH
 
 # Prompt override provided?
 # If not, just use the environment name.
-if test -n 'python2-lab'
-    set -gx VIRTUAL_ENV_PROMPT 'python2-lab'
+if test -n 'PythonII'
+    set -gx VIRTUAL_ENV_PROMPT 'PythonII'
 else
     set -gx VIRTUAL_ENV_PROMPT (basename "$VIRTUAL_ENV")
 end

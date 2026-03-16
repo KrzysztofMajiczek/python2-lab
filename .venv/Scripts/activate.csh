@@ -31,15 +31,15 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV 'C:\Users\Student P1-105-07\python2-lab\.venv'
+setenv VIRTUAL_ENV 'C:\Users\User_1\python2-lab\PythonII\.venv'
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/Scripts:$PATH:q"
 
 
 
-if ('python2-lab' != "") then
-    setenv VIRTUAL_ENV_PROMPT 'python2-lab'
+if ('PythonII' != "") then
+    setenv VIRTUAL_ENV_PROMPT 'PythonII'
 else
     setenv VIRTUAL_ENV_PROMPT "$VIRTUAL_ENV:t:q"
 endif

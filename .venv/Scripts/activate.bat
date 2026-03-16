@@ -26,9 +26,9 @@
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-@for %%i in ("C:\Users\Student P1-105-07\python2-lab\.venv") do @set "VIRTUAL_ENV=%%~fi"
+@for %%i in ("C:\Users\User_1\python2-lab\PythonII\.venv") do @set "VIRTUAL_ENV=%%~fi"
 
-@set "VIRTUAL_ENV_PROMPT=python2-lab"
+@set "VIRTUAL_ENV_PROMPT=PythonII"
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (
     @for %%d in ("%VIRTUAL_ENV%") do @set "VIRTUAL_ENV_PROMPT=%%~nxd"
 )
